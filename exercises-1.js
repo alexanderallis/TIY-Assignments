@@ -8,7 +8,6 @@
 // .sort()
 
 var array = ["5", "3", "6", "1Syntax", "Word"];
-
 array.sort();
 
 // .concat()
