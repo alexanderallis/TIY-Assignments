@@ -1,11 +1,9 @@
-var base = ("1");
-    first = (base+1);
-    second = (first + base);
-    third = (second + first);
 
+var arr = [0,1];
 
-var base = ("1");
-    1 + (2/3);
-    if (console.log(output) < 4000000){
-
-    }
+for (var next= 0; next < 4e6;next++) {
+    var next = arr[0] + arr[1];
+    arr.push(next);
+    arr.shift();
+    console.log(arr);
+}
