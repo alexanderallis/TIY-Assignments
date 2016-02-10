@@ -6,3 +6,15 @@ function calculateAge (birthYear, currentYear) {
 }
 
  alert("You are either " calculateAge);
+
+// ---------SECOND-IN-CLASS-EXERCISE---------
+
+var recipe = {
+    "title": "fruit-loops",
+    "serves": "1",
+    "ingredients": ["fruit-loops", "milk", "bowl", "spoon"]
+};
+
+console.log(recipe.title);
+console.log(recipe.serves);
+console.log(recipe.ingredients);
