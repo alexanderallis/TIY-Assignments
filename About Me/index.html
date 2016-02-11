@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <title>About Me</title>
 </head>
-<body>
+<body id="myP">
   <h1>About Me</h1>
 
   <ul>
@@ -12,10 +12,28 @@
     <li>Hometown: <span id="hometown"></span></li>
     <li>Favorite Movie: <span id="movie"></span></li>
     <li>Favorite Food: <span id="food"></span></li>
-  </ul>
-<script>
-var h1 = document.querySelector('h1');
 
-</script>
+
+  </ul>
+  <script>
+  document.getElementById("myP").style.font = " 20px arial,serif";
+  document.getElementById("fullname").innerHTML = " Alexander Allis";
+  document.getElementById("hometown").innerHTML = " High Point, NC";
+  document.getElementById("movie").innerHTML = " Inception";
+  document.getElementById("food").innerHTML = " Egg Rolls";
+// CHANGE CLASS
+  var asdf = document.getElementsByTagName("li")
+    console.log(asdf);
+    console.log(asdf.length);
+// ADD AN IMAGE
+  var x = document.createElement("IMG");
+    x.setAttribute("src", "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=&url=http%3A%2F%2Fwww.saawinternational.org%2Fcows.htm&bvm=bv.113943164,d.eWE&psig=AFQjCNHhASNf5AgR1DA0TssZLvLR1xK8nQ&ust=1455250831015134");
+
+  // document.getElementsByClassName(".asdf").color = "red";
+
+
+
+  </script>
+
  </body>
 </html>
