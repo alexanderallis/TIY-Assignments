@@ -22,7 +22,13 @@
   document.getElementById("movie").innerHTML = " Inception";
   document.getElementById("food").innerHTML = " Egg Rolls";
 // CHANGE CLASS
-  var asdf = document.getElementsByTagName("li")
+  var liChange = document.getElementsByTagName("li")
+  var length = liChange.length;
+  for (var liC = 0; liC < length; liC++){
+    // liChange[liC].className = liChange[liC].className + "listitem";
+    liChange[liC].style = "color:red";
+  }
+    asdf.style = "color:red";
     console.log(asdf);
     console.log(asdf.length);
 // ADD AN IMAGE
